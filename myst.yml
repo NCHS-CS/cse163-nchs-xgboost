@@ -1,5 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+build:
+  downloadImages: false
 project:
   downloads: []   # removes the default "source file" link everywhere
   title: Intermediate Data Programming
@@ -94,6 +96,15 @@ project:
         - file: project/scraping.md
         - file: project/project_examples.md
         - file: project/rubric.md
+    - title: Visualizations
+      file: visualizations/index.md
+      children:
+        - file: visualizations/activity.md
+        - file: visualizations/barchart.md
+        - file: visualizations/lineplots.md
+        - file: visualizations/curve_of_best_fit.md
+        - file: visualizations/case_study_dist.md
+        - file: visualizations/geospatial.md
     - title: Extras
       children:
       - file: building.md
